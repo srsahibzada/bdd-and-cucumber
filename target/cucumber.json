@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 115607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify 3 / 0",
+        "description": "",
+        "id": "division;verify-3-/-0",
+        "after": [
+          {
+            "result": {
+              "duration": 95800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130467569,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I divide the number 3 by 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                },
+                {
+                  "val": "0",
+                  "offset": 25
+                }
+              ],
+              "location": "ExampleWhen.divideTwoNumbers(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176699,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "division should fail",
+            "match": {
+              "location": "ExampleThen.failedOutput()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@DivideByZero"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 65391,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify 0 / 0",
+        "description": "",
+        "id": "division;verify-0-/-0",
+        "after": [
+          {
+            "result": {
+              "duration": 27560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 330732,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I divide the number 0 by 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 20
+                },
+                {
+                  "val": "0",
+                  "offset": 25
+                }
+              ],
+              "location": "ExampleWhen.divideTwoNumbers(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119718,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "division should fail",
+            "match": {
+              "location": "ExampleThen.failedOutput()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@DivideByZero"
+          }
+        ]
+      }
+    ],
+    "name": "Division",
+    "description": "",
+    "id": "division",
+    "keyword": "Feature",
+    "uri": "Division.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Division"
+      }
+    ]
+  }
+]
